@@ -7,7 +7,6 @@ import json
 import urllib.request
 from helpers import Job, Bullet
 
-testJobs = [Job(0,'Software Engineer', 'Google', 'Mountain View, CA', '2019-2020', [Bullet('Worked on the search team', [Bullet('Implemented new search algorithm', [])])]), Job(1,'Software Engineer', 'Facebook', 'Menlo Park, CA', '2017-2019', [Bullet('Worked on the ads team', [Bullet('Optimized ad serving algorithm', [])])])]
 #get env variable for source URL
 source_url = os.getenv('SOURCE_URL')
 
