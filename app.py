@@ -48,3 +48,8 @@ def job(id):
         return 'Job not found', 404
     else:
         return 'Error getting data', 500
+
+#About Me route
+@app.route('/about', methods=['GET'])
+def about():
+    return 'lorem ipsum'
